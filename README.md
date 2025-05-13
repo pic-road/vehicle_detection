@@ -1,11 +1,11 @@
-# Adaptive Traffic Signal Control System
+# 🚦 Adaptive Traffic Signal Control System 🚦
 
 This project is divided into 2 part ; the first part involves vehicle detection using a fine-tuned Yolo Model and the other a SUMO simulation to visualize real-time traffic scenario and how an adaptive algorithm can solve traffic congestion issues.
 
 ---
 
 
-## 📸 Yolov11 detection module : 
+## 🚙🔍 Yolov11 detection module : 
 
 ### Image Inferences : 
 
@@ -19,18 +19,18 @@ This project is divided into 2 part ; the first part involves vehicle detection 
 
 
 
-## 🧠 Model Info
+##  Model Info
 
 - **Models Used**: YoloV11 (trained on Coco dataset)
 - **Classes**: 5 vehicle classes: Car, Truck, Bike, Ambulance, Bus
 - **Framework**: Pytorch and OpenCV
-- **Dataset**:  [Click here]() 
+- **Dataset**:  Vehicles-openimages
   🔗 [Download it here](https://public.roboflow.com/object-detection/vehicles-openimages)
 
 ---
 
 
-## 📁 Project Structure
+## 📁 Project directory
 
 ```
 Vehicle-detection/
@@ -52,23 +52,20 @@ Vehicle-detection/
 
 
 
-## ⚙️ How to Run Locally
+## ➤ 모 How to Run Locally 모
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/pic-road/crop-disease-detection.git
+   git clone https://github.com/pic-road/vehicle_detection.git
    cd vehicle_detection
    pip install -r requirements.txt
    ```
 
-2. **Train MobileNet model**  
-   - Open `developing-models/MobileNet.ipynb` on **Google Colab** (recommended for GPU support)
-   - Train and export the model as `MobileNet.h5`
+2. **Train YoloV11**  
+   - Open `model-dev\Vehicle_detection.ipynbb` or use it as reference
+   - Train and save model weights `best.pt` -> Usually daved to runs/detect/train directory after model training
 
-3. **(Optional) Train VGG16 model**  
-   - Write and run a similar notebook `VGG16.ipynb` to fine-tune and save the VGG16 model
-
-4. **Run the Flask app locally**  
+3. **Run the Flask app locally**  
    ```bash
    python app.py
    ```
