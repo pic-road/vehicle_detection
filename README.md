@@ -1,6 +1,15 @@
 # 🚦 Adaptive Traffic Signal Control System 🚦
 
-This project is divided into 2 part ; the first part involves vehicle detection using a fine-tuned Yolo Model and the other a SUMO simulation to visualize real-time traffic scenario and how an adaptive algorithm can solve traffic congestion issues.
+## Project Overview
+
+This project is divided into two parts:
+
+1. **Vehicle Detection**  
+   This part involves vehicle detection using a fine-tuned YOLOv11 model.
+
+2. **SUMO Simulation**  
+   This part includes a SUMO simulation to visualize real-time traffic scenarios and demonstrate how an adaptive algorithm can help solve traffic congestion issues.
+
 
 ---
 
