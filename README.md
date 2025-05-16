@@ -18,11 +18,11 @@ This project is divided into two parts:
 
 ### Image Inferences : 
 
-![IMAGE](static/demo/collage.jpg)
+![IMAGE](End_Files/static/demo/collage.jpg)
 
 
 ### Video Inferences : 
-![VIDEO](static/demo/output.gif)
+![VIDEO](End_Files/static/demo/output.gif)
 
 ---
 
