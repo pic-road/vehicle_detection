@@ -9,7 +9,7 @@ This project is divided into two parts:
 
 2. **SUMO Simulation**  
    This part includes a SUMO simulation to visualize real-time traffic scenarios and demonstrate how an adaptive algorithm can help solve traffic congestion issues.
-
+   ![VIDEO](End_Files/Adaptive-Traffic-Signal-Timer/Demo.gif)
 
 ---
 
